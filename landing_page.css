@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;1,300&family=Pacifico&family=Poppins:ital,wght@0,200;0,300;0,400;1,200;1,300;1,400&family=Roboto+Flex:opsz,wght@8..144,300;8..144,400;8..144,500;8..144,600&family=Roboto:ital,wght@0,300;1,300&family=Work+Sans:wght@100&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.container {
+    max-width: 100vw;
+
+}
+
+.first {
+    background-image: url(/Images/developer.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+
+}
+
+.main_text {
+    line-height: 75px;
+    margin-top: 35px;
+}
+
+.heading {
+    color: white;
+    letter-spacing: 5px;
+    font-size: 65px;
+    font-weight: 200;
+}
+
+.small_heading {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.second {
+    background-color: black;
+    height: 220px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.big_heading {
+    font-size: 120px;
+}
+
+.three {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 25px;
+}
+
+.three_page {
+    display: flex;
+    align-items: center;
+    margin-top: 70px;
+
+}
+
+.page {
+    height: 450px;
+    width: 320px;
+    border-radius: 10px;
+    margin: 20px;
+    box-shadow: 5px 5px 5px rgba(1, 2, 3, 0.1);
+    cursor: pointer;
+
+}
+
+img {
+
+    height: 192px;
+}
+
+
+
+.page_content {
+    text-align: justify;
+    padding: 10px;
+}
+
+.content_heading {
+    text-align: center;
+    margin: 8px 0 8px 0;
+}
+
+.four_container {
+    display: flex;
+    margin-top: 35px;
+}
+
+.contact,
+.about {
+    width: 50vw;
+    height: 350px;
+    padding: 20px 45px;
+    color: white;
+    line-height: 30px;
+    text-align: justify;
+}
+
+.contact {
+    background-color: #515603;
+}
+
+.about {
+    background-color: #722300
+}
+
+.four_heading {
+    color: white;
+    font-size: 45px;
+    margin: 15px 0 30px 0;
+}
+
+.end {
+    background-color: black;
+    height: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.end h3 {
+    color: white;
+    font-size: 18px;
+    font-weight: 300;
+}
